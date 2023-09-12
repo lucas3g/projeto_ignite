@@ -2,10 +2,12 @@
     "extends": "@rocketseat/eslint-config/node",
     "rules": {
         "no-useless-constructor": "off",
+        "no-new": "off",
+        "camelcase": "off",
         "prettier/prettier": [
             "error",
             {
-                "endOfLine": "false",
+                "endOfLine": "auto",
                 "printWidth": 80,
                 "tabWidth": 2,
                 "semi": true,
